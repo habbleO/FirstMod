@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "firstmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "First Mod",
+  "description": "The first mod I am making, largely for testing purposes",
   "authors": [
-    "Me!"
+    "Hazel"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.firstmod.FirstMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    
   ],
 
   "depends": {
